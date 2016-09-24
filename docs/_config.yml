@@ -18,9 +18,10 @@ email: niko@alum.mit.edu
 description: > # this means to ignore newlines until "baseurl:"
   Screencasts and tutorials to help you learn Rust.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://rust-tutorails.com" # the base hostname & protocol for your site
+url: "" # the base hostname & protocol for your site
 twitter_username: nikomatsakis
 github_username:  nikomatsakis
+permalink:        /blog/:year/:month/:day/:title/
 
 # Build settings
 highlighter: rouge
