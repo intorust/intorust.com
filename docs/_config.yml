@@ -31,3 +31,8 @@ theme: minima
 kramdown:
   input: GFM
   hard_wrap: false
+
+collections:
+  tutorials:
+      output: true
+      permalink: /tutorial/:path/
