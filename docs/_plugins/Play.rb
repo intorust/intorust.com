@@ -26,15 +26,16 @@ module Jekyll
   class PlayUrlTag < Liquid::Tag
     def initialize(tag_name, text, tokens)
       super
-      @path = text.strip
+      @var = text.strip
     end
 
     def render(context)
+      path = Liquid::Variable.new(@var).render(context)
       site = context.registers[:site]
       exercise_url = site.config["exercise_url"]
       file_text = ""
       in_solution = false
-      File.open(@path).each_with_index do |line, index|
+      File.open(path).each_with_index do |line, index|
         line_num = index + 1
 
         print("line #{line_num} is #{line.inspect}\n")
@@ -45,14 +46,14 @@ module Jekyll
         # Track whether we are in a solution or not.
         if /\s*\/\/ START SOLUTION\s*$/ =~ line
           if in_solution
-            raise "START SOLUTION without corresponding END SOLUTION in #{@path} (line #{line_num})"
+            raise "START SOLUTION without corresponding END SOLUTION in #{path} (line #{line_num})"
           end
           in_solution = true
           next
         end
         if /\s*\/\/ END SOLUTION\s*$/ =~ line
           if !in_solution
-            raise "END SOLUTION without corresponding START SOLUTION in #{@path} (line #{line_num})"
+            raise "END SOLUTION without corresponding START SOLUTION in #{path} (line #{line_num})"
           end
           in_solution = false
           next
@@ -63,17 +64,17 @@ module Jekyll
 
         # Lint for some common mistakes.
         if line =~ /START/ or line =~ /END/ or line =~ /SOLUTION/
-          raise "Did you mean `// (START|END) SOLUTION` on line #{line_num} of #{@path}?"
+          raise "Did you mean `// (START|END) SOLUTION` on line #{line_num} of #{path}?"
         end
         if line =~ /PROMPT/
-          raise "Did you mean `// PROMPT ` on line #{line_num} of #{@path}?"
+          raise "Did you mean `// PROMPT ` on line #{line_num} of #{path}?"
         end
 
         # Track everything that is not in a solution.
         file_text << line unless in_solution
       end
       if in_solution
-        raise "START SOLUTION without corresponding END SOLUTION in {@path}"
+        raise "START SOLUTION without corresponding END SOLUTION in #{path}"
       end
       form = URI.encode_www_form("code" => file_text, "version" => "nightly")
       uri = URI::HTTP.new("https", nil, "play.rust-lang.org", nil, nil, "", nil, form, nil)

@@ -1,7 +1,8 @@
 ---
 layout: post
-title: Sharing
-description: Shared borrows
+title: Mutable borrows
+slug: Mutable borrows
+description: Mutable borrows
 img: /assets/images/andmut.png
 ---
 

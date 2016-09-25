@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Sharing
+slug: Sharing
 description: Shared borrows
 img: /assets/images/and.png
 ---

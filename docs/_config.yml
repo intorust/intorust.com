@@ -37,6 +37,6 @@ kramdown:
 collections:
   tutorials:
       output: true
-      permalink: /tutorial/:path/
+      permalink: /tutorial/:title/
 
 exercise_url: "http://rust-tutorials.com/"

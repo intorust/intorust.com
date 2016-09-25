@@ -6,7 +6,17 @@ layout: post
     {{ content }}
   </div>
   <div class="col-xs-9">
-    <iframe width="560" height="315" src="{{ page.movie }}" frameborder="0" allowfullscreen>
-    </iframe>
+    <div class="row">
+      <iframe width="560" height="315" src="{{ page.movie }}" frameborder="0" allowfullscreen>
+      </iframe>
+    </div>
+    <div class="row">
+      <h3>Exercises</h3>
+      <ul>
+        {% for exercise in page.exercises %}
+        <li> <a href="{% play_url exercise.rust %}">{{ exercise.name | escape }}</a>
+          {% endfor %}
+      </ul>
+    </div>
   </div>
 </div>
