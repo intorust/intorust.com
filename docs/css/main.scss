@@ -39,3 +39,8 @@ $on-laptop:        800px;
 
 // Import partials from the `minima` theme.
 @import "minima";
+
+.ndm-col-centered{
+    float: none;
+    margin: 0 auto;
+}     

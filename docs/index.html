@@ -7,23 +7,26 @@ layout: index
   <div class="container">
 
     <div class="row">
-      <div class="col-xs-12 col-sm-9">
+      <div class="col-xs-12 col-sm-9 ndm-col-centered">
         <div class="jumbotron">
           <h1>Learn Rust</h1>
           <p>Learn Rust via these screencasts. They don't suck. Too bad.</p>
         </div>
         {% for post in site.tutorials %}
+        <!-- FIXME is there a way to get more rows on lg screens? -->
         {% cycle 'add row' : '<div class="row">', nil, nil %}
           <div class="col-md-4">
             <img class="img-responsive" src="{{ post.img }}">
             <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
             <h2>
-              <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title | escape }}</a>
+              <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
+                {{ post.title | escape }}
+              </a>
             </h2>
         
             <p>{{ post.description | escape }}</p>
-          </div><!--/.col-xs-6.col-lg-4-->
+          </div><!--/.col-md-4-->
           {% cycle 'end row' : nil, nil, '</div>' %}
           {% endfor %}
           {% cycle 'end row' : nil, '</div>', '</div>' %}
