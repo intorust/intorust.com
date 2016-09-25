@@ -9,9 +9,9 @@ date: 2016.09.25
 author: Nicholas D. Matsakis
 exercises:
   - name: Hello, world!
-    rust: _rust/foo.rs
+    rust: _rust/10_hello_world.rs
   - name: Ownership
-    rust: _rust/foo.rs
+    rust: _rust/10_ownership.rs
 ---
 
 Ownership is the foundation for how the rest Rust of works. It is also

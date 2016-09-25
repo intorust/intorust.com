@@ -38,8 +38,6 @@ module Jekyll
       File.open(path).each_with_index do |line, index|
         line_num = index + 1
 
-        print("line #{line_num} is #{line.inspect}\n")
-        
         # Replace http://home.url with the exercise url
         line = line.gsub(/http:\/\/home.url/, exercise_url)
 
