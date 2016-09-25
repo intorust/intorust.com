@@ -32,7 +32,11 @@ kramdown:
   input: GFM
   hard_wrap: false
 
+# Things specific to this site:
+
 collections:
   tutorials:
       output: true
       permalink: /tutorial/:path/
+
+exercise_url: "http://rust-tutorials.com/"

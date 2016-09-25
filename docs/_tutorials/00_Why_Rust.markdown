@@ -1,10 +1,16 @@
 ---
-layout: post
+layout: tutorial
 title: Why Rust?
 description: Get the "extended elevator pitch" for Rust.
 img: /assets/images/rust-logo-512x512.png
+movie: https://www.youtube.com/embed/zkdYFu-Mxwo
+date: 2016.09.25
+author: Nicholas D. Matsakis
 ---
 
-Every project has a beautiful feature shocase page. It's easy to include images, in a flexible 3-column grid format. Make your photos 1/3, 2/3, or full width.
+This movie goes into depth on a few examples that show Rust makes
+systems programming more productive, both for new users and
+experienced hackers alike.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/zkdYFu-Mxwo" frameborder="0" allowfullscreen></iframe>
+If you'd prefer to jump right into learning Rust itself,
+try the [Ownership tutorial](/tutorial/10_Ownership/).
