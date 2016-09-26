@@ -15,7 +15,6 @@ layout: index
         {% cycle 'add row' : '<div class="row">', nil, nil %}
           <div class="col-md-4">
             <img class="img-responsive" src="{{ post.img }}">
-            <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
             <h2>
               <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
@@ -24,12 +23,12 @@ layout: index
             </h2>
         
             <p>{{ post.description | escape }}</p>
+            <span class="post-meta">Last updated: {{ post.date | date: "%b %-d, %Y" }}</span>
           </div><!--/.col-md-4-->
           {% cycle 'end row' : nil, nil, '</div>' %}
           {% endfor %}
           {% cycle 'end row' : nil, '</div>', '</div>' %}
       </div><!--/.col-xs-12.col-sm-9-->
     </div><!--/row-->
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-</div>
+  </div><!--/container-->
+</div><!--/home-->
