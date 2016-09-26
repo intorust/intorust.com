@@ -10,7 +10,8 @@ author: Nicholas D. Matsakis
 exercises:
   - name: Mutable borrows
     rust: _rust/30_mutable_borrow.rs
-    hint: The syntax can be a bit tricky. If you like, [here is a hint](/hint/mutable_borrow_1/).
+    hint: |
+      The syntax can be a bit tricky. If you like, [click here for a hint](/hint/mutable_borrow_1/).
 ---
 
 Ownership is very cool.
