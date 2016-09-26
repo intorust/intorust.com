@@ -18,7 +18,7 @@ checkout the repository, change into the directory, and do something
 like this (caveat: I am no expert on Ruby, gems, or bundler):
 
 ```
-gem install jekyll bundler
+cd src
 bundle install
 ```
 
@@ -28,7 +28,7 @@ To preview changes you are hacking on, do the following:
 
 ```
 cd src
-jekyll preview
+bundle exec jekyll serve
 ```
 
 Then connect to `http://127.0.0.1:4000`. This will stay updated as you
