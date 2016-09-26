@@ -4,10 +4,10 @@
     <title>into_rust()</title>
     <description>Screencasts and tutorials to help you learn Rust.
 </description>
-    <link>intorust/</link>
-    <atom:link href="intorust/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 26 Sep 2016 08:11:06 -0400</pubDate>
-    <lastBuildDate>Mon, 26 Sep 2016 08:11:06 -0400</lastBuildDate>
+    <link>/intorust/</link>
+    <atom:link href="/intorust/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Mon, 26 Sep 2016 08:13:04 -0400</pubDate>
+    <lastBuildDate>Mon, 26 Sep 2016 08:13:04 -0400</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
     
       <item>
@@ -39,8 +39,8 @@ out the README or the open issues on the repository.&lt;/p&gt;
 
 </description>
         <pubDate>Mon, 26 Sep 2016 00:00:00 -0400</pubDate>
-        <link>intorust/blog/2016/09/26/welcome-to-into-rust/</link>
-        <guid isPermaLink="true">intorust/blog/2016/09/26/welcome-to-into-rust/</guid>
+        <link>/intorust/blog/2016/09/26/welcome-to-into-rust/</link>
+        <guid isPermaLink="true">/intorust/blog/2016/09/26/welcome-to-into-rust/</guid>
         
         
         <category>update</category>
