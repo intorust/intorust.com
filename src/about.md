@@ -47,8 +47,13 @@ a response).
 
 [Aaron Turon](https://github.com/aturon/) is another major
 contributor. He is a member of the Rust core and language teams.  Like
-Niko, he maintains a blog at <http://aturon.github.io/blog/>.
+Niko, he maintains a blog at
+<http://aturon.github.io/blog/>. [Felix Klock](https://github.com/pnkfelix)
+and [Steve Klabnik](https://github.com/steveklabnik) also helped in
+the iteration on the current set of slides.
 
-Thanks also go out to [Felix Klock](https://github.com/pnkfelix) and
-[Steve Klabnik](https://github.com/steveklabnik)5A, both of whom helped
-in the iteration on the current set of slides.
+Thanks to [Liz Baille](https://twitter.com/_lizbaillie/), whose
+excellent
+[Illustrated Rust Adventure Guide](http://www.slideshare.net/LizBaillie/rustconf-2016-illustrated-adventure-guide-65894363)
+is used as the basis for a lot of the artwork on the site.
+
