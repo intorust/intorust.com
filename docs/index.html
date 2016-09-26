@@ -27,7 +27,10 @@ layout: index
           </div><!--/.col-md-4-->
           {% cycle 'end row' : nil, nil, '</div>' %}
           {% endfor %}
-          {% cycle 'end row' : nil, '</div>', '</div>' %}
+        {% cycle 'end row' : nil, '</div>', '</div>' %}
+    <hr>
+  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">to these tutorials via RSS</a>
+        </ul>
       </div><!--/.col-xs-12.col-sm-9-->
     </div><!--/row-->
   </div><!--/container-->
