@@ -6,16 +6,16 @@
 </description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 26 Sep 2016 09:49:20 -0400</pubDate>
-    <lastBuildDate>Mon, 26 Sep 2016 09:49:20 -0400</lastBuildDate>
+    <pubDate>Mon, 26 Sep 2016 18:15:16 -0400</pubDate>
+    <lastBuildDate>Mon, 26 Sep 2016 18:15:16 -0400</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
     
       <item>
         <title>Why Rust?</title>
         <description>Get the &quot;extended elevator pitch&quot; for Rust.</description>
         <pubDate>Sun, 25 Sep 2016 00:00:00 -0400</pubDate>
-        <link>/tutorial/Why-Rust/</link>
-        <guid isPermaLink="true">/tutorial/Why-Rust/</guid>
+        <link>/tutorial/why-rust/</link>
+        <guid isPermaLink="true">/tutorial/why-rust/</guid>
         
         
       </item>
@@ -24,18 +24,18 @@
         <title>Ownership</title>
         <description>Ownership: the foundation of how Rust works</description>
         <pubDate>Sun, 25 Sep 2016 00:00:00 -0400</pubDate>
-        <link>/tutorial/Ownership/</link>
-        <guid isPermaLink="true">/tutorial/Ownership/</guid>
+        <link>/tutorial/ownership/</link>
+        <guid isPermaLink="true">/tutorial/ownership/</guid>
         
         
       </item>
     
       <item>
-        <title>Sharing</title>
+        <title>Shared borrows</title>
         <description>Shared borrows</description>
         <pubDate>Sun, 25 Sep 2016 00:00:00 -0400</pubDate>
-        <link>/tutorial/Sharing/</link>
-        <guid isPermaLink="true">/tutorial/Sharing/</guid>
+        <link>/tutorial/shared-borrows/</link>
+        <guid isPermaLink="true">/tutorial/shared-borrows/</guid>
         
         
       </item>
@@ -44,8 +44,8 @@
         <title>Mutable borrows</title>
         <description>Mutable borrows</description>
         <pubDate>Sun, 25 Sep 2016 00:00:00 -0400</pubDate>
-        <link>/tutorial/Mutable-borrows/</link>
-        <guid isPermaLink="true">/tutorial/Mutable-borrows/</guid>
+        <link>/tutorial/mutable-borrows/</link>
+        <guid isPermaLink="true">/tutorial/mutable-borrows/</guid>
         
         
       </item>
