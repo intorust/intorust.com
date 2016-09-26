@@ -9,22 +9,43 @@ materials. It is divided into two main parts:
 
 # Building the site
 
-To preview the changes, do the following:
+### Install jekyll, if you haven't already
+
+To do anything, you will need jekyll installed. I am using
+[rbenv](https://github.com/rbenv/rbenv). The Ruby version is commited
+in `.ruby-version`. If you also use rbenv, you should be able to just
+checkout the repository, change into the directory, and do something
+like this (caveat: I am no expert on Ruby, gems, or bundler):
+
+```
+gem install jekyll bundler
+bundle install
+```
+
+### Previewing
+
+To preview changes you are hacking on, do the following:
 
 ```
 cd src
 jekyll preview
 ```
 
-To build the source, do the following steps:
+Then connect to `http://127.0.0.1:4000`. This will stay updated as you
+tweak things, for the most part.
+
+### Building and putting the sources live
+
+`intorust.com` mirrors what is present in the `docs` directory using
+GH Pages. So, to build the source, do the following steps:
 
 ```
 cd src
 jekyll build -d ../docs
 ```
 
-To put the source live on `intorust.com`, commit your changes and push
-to GH.
+This will update the `docs` directlry. Then you need to commit your
+changes and push to GH.
 
 # License
 
