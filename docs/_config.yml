@@ -38,5 +38,8 @@ collections:
   tutorials:
       output: true
       permalink: /tutorial/:title/
+  hints:
+      output: true
+      permalink: /hint/:title/
 
-exercise_url: "http://rust-tutorials.com/"
+exercise_url: "http://127.0.0.1:4000"

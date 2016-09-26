@@ -14,7 +14,10 @@ layout: post
       <h3>Exercises</h3>
       <ul>
         {% for exercise in page.exercises %}
-        <li> <a href="{% play_url exercise.rust %}">{{ exercise.name | escape }}</a>
+        <li> <a target="_blank" href="{% play_url exercise.rust %}">{{ exercise.name | escape }}</a>
+          {% if exercise.hint %}
+          {{ exercise.hint | markdownify }}
+          {% endif %}
           {% endfor %}
       </ul>
     </div>
