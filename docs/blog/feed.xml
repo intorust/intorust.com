@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>into_rust()</title>
+    <description>Screencasts and tutorials to help you learn Rust.
+</description>
+    <link>/</link>
+    <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Mon, 26 Sep 2016 05:33:25 -0400</pubDate>
+    <lastBuildDate>Mon, 26 Sep 2016 05:33:25 -0400</lastBuildDate>
+    <generator>Jekyll v3.2.1</generator>
+    
+      <item>
+        <title>Welcome to `into_rust()`!</title>
+        <description>&lt;p&gt;Hello, and welcome to &lt;code class=&quot;highlighter-rouge&quot;&gt;into_rust()&lt;/code&gt;! This site consists of screencasts
+showing tutorials that I have been working on for over a year. The
+tutorials take an “Ownership First” approach – which means that we
+place a heavy emphasis on learning how ownership and the borrow
+checker work, rather than covering Rust’s syntax or other details. The
+reason for this is othat ownership is Rust’s most unique feature, and
+is often the one that people find the most confusing.&lt;/p&gt;
+
+&lt;p&gt;The current set of tutorials is just a start. I hope to post
+additional screencasts on a regular basis:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Structs and enums&lt;/li&gt;
+  &lt;li&gt;Threads&lt;/li&gt;
+  &lt;li&gt;Traits&lt;/li&gt;
+  &lt;li&gt;Named lifetime parameters&lt;/li&gt;
+  &lt;li&gt;Aliasing and mutability&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The sources for &lt;code class=&quot;highlighter-rouge&quot;&gt;into_rust()&lt;/code&gt; are &lt;a href=&quot;https://github.com/nikomatsakis/intorust&quot;&gt;available in Github&lt;/a&gt; (as are,
+in fact, &lt;a href=&quot;https://github.com/nikomatsakis/intorust/tree/master/keynote&quot;&gt;the Keynote slides&lt;/a&gt; for a number of the tutorials mentioned
+above). If you find errors or have suggestions for improvement, please
+open an issue. If you’d be interested in helping in other ways, check
+out the README or the open issues on the repository.&lt;/p&gt;
+
+</description>
+        <pubDate>Mon, 26 Sep 2016 00:00:00 -0400</pubDate>
+        <link>/blog/2016/09/26/welcome-to-into-rust/</link>
+        <guid isPermaLink="true">/blog/2016/09/26/welcome-to-into-rust/</guid>
+        
+        
+        <category>update</category>
+        
+      </item>
+    
+  </channel>
+</rss>
