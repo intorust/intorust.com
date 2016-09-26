@@ -4,18 +4,18 @@
     <title>into_rust()</title>
     <description>Screencasts and tutorials to help you learn Rust.
 </description>
-    <link>/</link>
-    <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 26 Sep 2016 05:33:25 -0400</pubDate>
-    <lastBuildDate>Mon, 26 Sep 2016 05:33:25 -0400</lastBuildDate>
+    <link>intorust/</link>
+    <atom:link href="intorust/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Mon, 26 Sep 2016 08:11:06 -0400</pubDate>
+    <lastBuildDate>Mon, 26 Sep 2016 08:11:06 -0400</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
     
       <item>
         <title>Why Rust?</title>
         <description>Get the &quot;extended elevator pitch&quot; for Rust.</description>
         <pubDate>Sun, 25 Sep 2016 00:00:00 -0400</pubDate>
-        <link>/tutorial/Why-Rust/</link>
-        <guid isPermaLink="true">/tutorial/Why-Rust/</guid>
+        <link>intorust/tutorial/Why-Rust/</link>
+        <guid isPermaLink="true">intorust/tutorial/Why-Rust/</guid>
         
         
       </item>
@@ -24,8 +24,8 @@
         <title>Ownership</title>
         <description>Ownership: the foundation of how Rust works</description>
         <pubDate>Sun, 25 Sep 2016 00:00:00 -0400</pubDate>
-        <link>/tutorial/Ownership/</link>
-        <guid isPermaLink="true">/tutorial/Ownership/</guid>
+        <link>intorust/tutorial/Ownership/</link>
+        <guid isPermaLink="true">intorust/tutorial/Ownership/</guid>
         
         
       </item>
@@ -34,8 +34,8 @@
         <title>Sharing</title>
         <description>Shared borrows</description>
         <pubDate>Sun, 25 Sep 2016 00:00:00 -0400</pubDate>
-        <link>/tutorial/Sharing/</link>
-        <guid isPermaLink="true">/tutorial/Sharing/</guid>
+        <link>intorust/tutorial/Sharing/</link>
+        <guid isPermaLink="true">intorust/tutorial/Sharing/</guid>
         
         
       </item>
@@ -44,8 +44,8 @@
         <title>Mutable borrows</title>
         <description>Mutable borrows</description>
         <pubDate>Sun, 25 Sep 2016 00:00:00 -0400</pubDate>
-        <link>/tutorial/Mutable-borrows/</link>
-        <guid isPermaLink="true">/tutorial/Mutable-borrows/</guid>
+        <link>intorust/tutorial/Mutable-borrows/</link>
+        <guid isPermaLink="true">intorust/tutorial/Mutable-borrows/</guid>
         
         
       </item>
