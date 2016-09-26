@@ -1,7 +1,7 @@
 ---
 layout: tutorial
 title: Ownership
-slug: Ownership
+slug: ownership
 description: 'Ownership: the foundation of how Rust works'
 img: /assets/images/15.png
 movie: https://www.youtube.com/embed/UYUNUmhC62M

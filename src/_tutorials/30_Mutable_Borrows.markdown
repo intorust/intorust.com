@@ -1,7 +1,7 @@
 ---
 layout: tutorial
 title: Mutable borrows
-slug: Mutable borrows
+slug: mutable borrows
 description: Mutable borrows
 img: /assets/images/andmut.png
 movie: https://www.youtube.com/embed/KnMvFXg__ok

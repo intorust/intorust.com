@@ -1,7 +1,7 @@
 ---
 layout: tutorial
-title: Sharing
-slug: Sharing
+title: Shared borrows
+slug: shared borrows
 description: Shared borrows
 img: /assets/images/and.png
 movie: https://www.youtube.com/embed/KnMvFXg__ok
