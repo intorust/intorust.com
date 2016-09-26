@@ -3,8 +3,28 @@
 A website containing Rust tutorials. This repo contains the source
 materials. It is divided into two main parts:
 
-- `docs` -- contains the jekyll sources for the website itself
+- `src` -- contains the jekyll sources for the website itself
+- `docs` -- contains the **rendered jekyll sources** used for the GH Pages integration
 - `keynote` -- contains the keynote sources for the slides
+
+# Building the site
+
+To preview the changes, do the following:
+
+```
+cd src
+jekyll preview
+```
+
+To build the source, do the following steps:
+
+```
+cd src
+jekyll build -d ../docs
+```
+
+To put the source live on `intorust.com`, commit your changes and push
+to GH.
 
 # License
 
