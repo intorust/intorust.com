@@ -13,14 +13,14 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Rust Tutorials
+title: into_rust()
 email: niko@alum.mit.edu
 description: > # this means to ignore newlines until "baseurl:"
   Screencasts and tutorials to help you learn Rust.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site
-twitter_username: nikomatsakis
-github_username:  nikomatsakis
+# twitter_username: nikomatsakis
+# github_username:  nikomatsakis
 permalink:        /blog/:year/:month/:day/:title/
 
 # Build settings
