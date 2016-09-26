@@ -9,7 +9,7 @@ you quickly get up to speed coding Rust. These tutorials take an
 "Ownership First" approach -- which means that we place a heavy
 emphasis on learning how ownership and the borrow checker work, rather
 than covering Rust's syntax or other details. The reason for this is
-othat ownership is Rust's most unique feature, and is often the one
+that ownership is Rust's most unique feature, and is often the one
 that people find the most confusing.
 
 ### Other places to learn about Rust
