@@ -1,7 +1,7 @@
 ---
 layout: tutorial
 title: Hello, world!
-slug: hello, world
+slug: hello world
 description: Where every tutorial must start!
 img: /assets/images/15.png
 movie: https://www.youtube.com/embed/UYUNUmhC62M
