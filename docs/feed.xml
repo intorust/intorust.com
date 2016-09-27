@@ -6,8 +6,8 @@
 </description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 26 Sep 2016 18:15:16 -0400</pubDate>
-    <lastBuildDate>Mon, 26 Sep 2016 18:15:16 -0400</lastBuildDate>
+    <pubDate>Mon, 26 Sep 2016 21:58:38 -0400</pubDate>
+    <lastBuildDate>Mon, 26 Sep 2016 21:58:38 -0400</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
     
       <item>
@@ -16,6 +16,16 @@
         <pubDate>Sun, 25 Sep 2016 00:00:00 -0400</pubDate>
         <link>/tutorial/why-rust/</link>
         <guid isPermaLink="true">/tutorial/why-rust/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Hello, world!</title>
+        <description>Where every tutorial must start!</description>
+        <pubDate>Sun, 25 Sep 2016 00:00:00 -0400</pubDate>
+        <link>/tutorial/hello,-world/</link>
+        <guid isPermaLink="true">/tutorial/hello,-world/</guid>
         
         
       </item>
