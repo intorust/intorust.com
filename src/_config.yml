@@ -42,4 +42,4 @@ collections:
       output: true
       permalink: /hint/:title/
 
-exercise_url: "http://127.0.0.1:4000"
+exercise_url: "http://intorust.com"
