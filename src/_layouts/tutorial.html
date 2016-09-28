@@ -16,6 +16,7 @@ layout: post
   </div>
   <div class="col-xs-6">
     <h3>Exercises</h3>
+    {% if page.exercises %}
     <ul>
       {% for exercise in page.exercises %}
       <li> <a target="_blank" href="{% play_url exercise.rust %}">{{ exercise.name | escape }}</a>
@@ -24,17 +25,22 @@ layout: post
         {% endif %}
         {% endfor %}
     </ul>
+    {% else %}
+    No exercises for this tutorial.
+    {% endif %}
   </div> <!--/col-xs-6-->
 </div> <!--/row-->
 <div class="row">
   <div class="col-xs-6">
-    {% if page.predecessors %}
     <h3>Watch this first</h3>
+    {% if page.predecessors %}
     <ul>
     {% for node in page.predecessors %}
     <li> <a href="{{ node.link | prepend: site.baseurl }}">{{node.name}}</a>
     {% endfor %}
     </ul>
+    {% else %}
+    No prerequisites for this tutorial.
     {% endif %}
   </div>
   <div class="col-xs-6">
