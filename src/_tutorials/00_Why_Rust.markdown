@@ -3,7 +3,7 @@ layout: tutorial
 title: Why Rust?
 slug: why rust?
 description: Get the "extended elevator pitch" for Rust.
-img: /assets/images/rust-logo-512x512.png
+img: /assets/images/rustlogobig.png
 movie: https://www.youtube.com/embed/2NUAd0YC_uI
 date: 2016.09.25
 author: Nicholas D. Matsakis
