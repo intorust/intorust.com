@@ -1,37 +1,32 @@
 ---
-layout: index
+layout: default
+no_header: true
+no_footer: true
 ---
 
 <div class="home">
-  <div class="container">
-    <div class="row">
-      <div class="col-xs-12 col-sm-9 ndm-col-centered">
-        <div class="jumbotron">
-          <h1>into_rust()</h1>
-          <p><a href="about/">Screencasts for learning Rust.</a></p>
-        </div>
-        {% for post in site.tutorials %}
-        <!-- FIXME is there a way to get more rows on lg screens? -->
-        {% cycle 'add row' : '<div class="row">', nil, nil %}
-          <div class="col-md-4">
-            <img class="img-responsive" src="{{ post.img | prepend: site.baseurl }}">
-
-            <h2>
-              <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
-                {{ post.title | escape }}
-              </a>
-            </h2>
-        
-            <p>{{ post.description | escape }}</p>
-            <span class="post-meta">Last updated: {{ post.date | date: "%b %-d, %Y" }}</span>
-          </div><!--/.col-md-4-->
-          {% cycle 'end row' : nil, nil, '</div>' %}
-          {% endfor %}
-        {% cycle 'end row' : nil, '</div>', '</div>' %}
-    <hr>
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">to these tutorials via RSS</a>
-        </ul>
-      </div><!--/.col-xs-12.col-sm-9-->
-    </div><!--/row-->
-  </div><!--/container-->
+  <div class="jumbotron">
+    <h1>into_rust()</h1>
+    <p><a href="about/">Screencasts for learning Rust.</a></p>
+  </div>
+  {% for post in site.tutorials %}
+  <!-- FIXME is there a way to get more rows on lg screens? -->
+  {% cycle 'add row' : '<div class="row">', nil, nil %}
+    <div class="col-md-4">
+      <img class="img-responsive" src="{{ post.img | prepend: site.baseurl }}">
+      
+      <h2>
+        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
+          {{ post.title | escape }}
+        </a>
+      </h2>
+      
+      <p>{{ post.description | escape }}</p>
+      <span class="post-meta">Last updated: {{ post.date | date: "%b %-d, %Y" }}</span>
+    </div><!--/.col-md-4-->
+    {% cycle 'end row' : nil, nil, '</div>' %}
+  {% endfor %}
+  {% cycle 'end row' : nil, '</div>', '</div>' %}
+<hr>
+<p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">to these tutorials via RSS</a>
 </div><!--/home-->

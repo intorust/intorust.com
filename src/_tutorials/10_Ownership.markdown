@@ -10,10 +10,11 @@ author: Nicholas D. Matsakis
 exercises:
   - name: Ownership
     rust: _rust/10_ownership.rs
+successors:
+  - name: Shared borrows
+    link: /tutorial/shared-borrows
 ---
 
 Ownership is the foundation for how the rest Rust of works. It is also
 the part of Rust that is most different from other languages. This
 tutorial walks through the core ideas of ownership.
-
-**Suggested next tutorial:** [Shared borrows]({% link _tutorials/20_Shared_Borrows.markdown %}).

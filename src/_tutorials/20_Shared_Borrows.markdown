@@ -10,6 +10,9 @@ author: Nicholas D. Matsakis
 exercises:
   - name: Shared borrows
     rust: _rust/20_sharing.rs
+predecessors:
+  - name: Ownership
+    link: /tutorial/ownership
 ---
 
 Continue from where the [ownership tutorial] left off. Learn how to

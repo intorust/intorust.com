@@ -22,8 +22,12 @@
   <body>
 
     <!--
-        Two differences from the "minima" default here:
-        - removed <header class="site-header" role="banner">
+        Difference from the "minima" default here:
+        - removed the "wrapper" div
+      -->
+
+    
+    <header class="site-header" role="banner">
 
   <div class="wrapper">
 
@@ -65,99 +69,81 @@
 
 </header>
 
-        - removed the "wrapper" div
-      -->
+    
 
     <main class="page-content" aria-label="Content">
-      <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 col-sm-9 ndm-col-centered">
+            <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+  <header class="post-header">
+    <h1 class="post-title" itemprop="name headline">Ownership</h1>
+    <p class="post-meta">
+      <time datetime="2016-09-25T00:00:00-04:00" itemprop="datePublished">Sep 25, 2016</time>
+       • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">Nicholas D. Matsakis</span></span>
+    </p>
+  </header>
 
-  <div class="container">
+  <div class="post-content" itemprop="articleBody">
     <div class="row">
-      <div class="col-xs-12 col-md-9 ndm-col-centered">
-        <header class="post-header">
-          <h1 class="post-title" itemprop="name headline">Ownership</h1>
-          <p class="post-meta">
-            <time datetime="2016-09-25T00:00:00-04:00" itemprop="datePublished">Sep 25, 2016</time>
-             • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">Nicholas D. Matsakis</span></span>
-          </p>
-        </header>
-
-        <div class="post-content" itemprop="articleBody">
-          <div class="row">
-  <div class="col-xs-3">
+  <div class="col-xs-12">
+    <div class="row">
+      <iframe width="600" height="375" src="https://www.youtube.com/embed/UYUNUmhC62M" frameborder="0" allowfullscreen>
+      </iframe>
+    </div>
+  </div>
+</div>
+<div class="row">
+  <div class="col-xs-6">
+    <h3>Description</h3>
     <p>Ownership is the foundation for how the rest Rust of works. It is also
 the part of Rust that is most different from other languages. This
 tutorial walks through the core ideas of ownership.</p>
 
-<p><strong>Suggested next tutorial:</strong> <a href="/tutorial/shared-borrows/">Shared borrows</a>.</p>
-
   </div>
-  <div class="col-xs-9">
-    <div class="row">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/UYUNUmhC62M" frameborder="0" allowfullscreen>
-      </iframe>
-    </div>
-    <div class="row">
-      <h3>Exercises</h3>
-      <ul>
+  <div class="col-xs-6">
+    <h3>Exercises</h3>
+    <ul>
+      
+      <li> <a target="_blank" href="https://play.rust-lang.org?code=fn+main%28%29+%7B%0A++++let+%28adjective%2C+name%29+%3D+two_words%28%29%3B%0A++++let+name+%3D+format%21%28%22%7B%7D+%7B%7D%22%2C+adjective%2C+name%29%3B%0A++++print_out%28name%29%3B%0A%7D%0A%0Afn+two_words%28%29+-%3E+%28String%2C+String%29+%7B%0A++++%28format%21%28%22fellow%22%29%2C+format%21%28%22Rustaceans%22%29%29%0A%7D%0A%0Afn+remove_vowels%28name%3A+String%29+-%3E+String+%7B%0A++++%2F%2F+Goal+%231%3A+What+is+needed+here+to+make+this+compile%3F%0A++++let+output+%3D+String%3A%3Anew%28%29%3B%0A++++for+c+in+name.chars%28%29+%7B%0A++++++++match+c+%7B%0A++++++++++++%27a%27+%7C+%27e%27+%7C+%27i%27+%7C+%27o%27+%7C+%27u%27+%3D%3E+%7B%0A++++++++++++++++%2F%2F+skip+vowels%0A++++++++++++%7D%0A++++++++++++_+%3D%3E+%7B%0A++++++++++++++++output.push%28c%29%3B%0A++++++++++++%7D%0A++++++++%7D%0A++++%7D%0A++++output%0A%7D%0A%0Afn+print_out%28name%3A+String%29+%7B%0A++++let+devowelized_name+%3D+remove_vowels%28name%29%3B%0A++++println%21%28%22Removing+vowels+yields+%7B%3A%3F%7D%22%2C+devowelized_name%29%3B%0A%0A++++%2F%2F+Goal+%232%3A+What+happens+when+you+uncomment+the+%60println%60+below%3F%0A++++%2F%2F+Can+you+change+the+code+above+so+that+the+code+below+compiles%0A++++%2F%2F+successfully%3F%0A++++%2F%2F%0A++++%2F%2F+println%21%28%22Removing+vowels+from+%7B%3A%3F%7D+yields+%7B%3A%3F%7D%22%2C%0A++++%2F%2F++++++++++name%2C+devowelized_name%29%3B%0A%0A++++%2F%2F+Extra+credit%3A+Can+you+do+it+without+copying+any+data%3F%0A++++%2F%2F+%28Using+only+ownership+transfer%29%0A%7D%0A&version=nightly">Ownership</a>
         
-        <li> <a target="_blank" href="https://play.rust-lang.org?code=fn+main%28%29+%7B%0A++++let+%28adjective%2C+name%29+%3D+two_words%28%29%3B%0A++++let+name+%3D+format%21%28%22%7B%7D+%7B%7D%22%2C+adjective%2C+name%29%3B%0A++++print_out%28name%29%3B%0A%7D%0A%0Afn+two_words%28%29+-%3E+%28String%2C+String%29+%7B%0A++++%28format%21%28%22fellow%22%29%2C+format%21%28%22Rustaceans%22%29%29%0A%7D%0A%0Afn+remove_vowels%28name%3A+String%29+-%3E+String+%7B%0A++++%2F%2F+Goal+%231%3A+What+is+needed+here+to+make+this+compile%3F%0A++++let+output+%3D+String%3A%3Anew%28%29%3B%0A++++for+c+in+name.chars%28%29+%7B%0A++++++++match+c+%7B%0A++++++++++++%27a%27+%7C+%27e%27+%7C+%27i%27+%7C+%27o%27+%7C+%27u%27+%3D%3E+%7B%0A++++++++++++++++%2F%2F+skip+vowels%0A++++++++++++%7D%0A++++++++++++_+%3D%3E+%7B%0A++++++++++++++++output.push%28c%29%3B%0A++++++++++++%7D%0A++++++++%7D%0A++++%7D%0A++++output%0A%7D%0A%0Afn+print_out%28name%3A+String%29+%7B%0A++++let+devowelized_name+%3D+remove_vowels%28name%29%3B%0A++++println%21%28%22Removing+vowels+yields+%7B%3A%3F%7D%22%2C+devowelized_name%29%3B%0A%0A++++%2F%2F+Goal+%232%3A+What+happens+when+you+uncomment+the+%60println%60+below%3F%0A++++%2F%2F+Can+you+change+the+code+above+so+that+the+code+below+compiles%0A++++%2F%2F+successfully%3F%0A++++%2F%2F%0A++++%2F%2F+println%21%28%22Removing+vowels+from+%7B%3A%3F%7D+yields+%7B%3A%3F%7D%22%2C%0A++++%2F%2F++++++++++name%2C+devowelized_name%29%3B%0A%0A++++%2F%2F+Extra+credit%3A+Can+you+do+it+without+copying+any+data%3F%0A++++%2F%2F+%28Using+only+ownership+transfer%29%0A%7D%0A&version=nightly">Ownership</a>
-          
-          
-      </ul>
-    </div>
+        
+    </ul>
+  </div> <!--/col-xs-6-->
+</div> <!--/row-->
+<div class="row">
+  <div class="col-xs-6">
+    
+  </div>
+  <div class="col-xs-6">
+    
+    <h3>Watch this next</h3>
+    <ul>
+    
+    <li> <a href="/tutorial/shared-borrows">Shared borrows</a>
+    
+    </ul>
+    
   </div>
 </div>
 
-        </div>
 
-        
-      </div>
   </div>
+  
+  
 </article>
 
+          </div>
+        </div>
+      </div>
     </main>
 
+    
     <footer class="site-footer">
-
-  <div class="wrapper">
-    
-    
-    <a class="site-title" href="/">into_rust()</a>
-
-    <nav class="site-nav">
-      <a href="#" class="menu-icon">
-        <svg viewBox="0 0 18 15" width="18px" height="15px">
-          <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
-          <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
-          <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
-        </svg>
-      </a>
-
-      <div class="trigger">
-        
-          
-          <a class="page-link" href="/about/">About</a>
-          
-        
-          
-        
-          
-        
-          
-          <a class="page-link" href="/blog/">Blog</a>
-          
-        
-          
-        
-          
-        
-      </div>
-    </nav>
-  </div>
   
 </footer>
 
+    
 
   </body>
 

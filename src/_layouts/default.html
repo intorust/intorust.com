@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+  {% include head.html %}
+
+  <body>
+
+    <!--
+        Difference from the "minima" default here:
+        - removed the "wrapper" div
+      -->
+
+    {% unless page.no_header %}
+    {% include header.html %}
+    {% endunless %}
+
+    <main class="page-content" aria-label="Content">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 col-sm-9 ndm-col-centered">
+            {{ content }}
+          </div>
+        </div>
+      </div>
+    </main>
+
+    {% unless page.no_footer %}
+    {% include footer.html %}
+    {% endunless %}
+
+  </body>
+
+</html>
