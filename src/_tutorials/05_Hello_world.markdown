@@ -13,5 +13,6 @@ exercises:
 ---
 
 This tutorial starts with a "Hello, World!" example and gives a brief
-tour of some of the essential features in Rust.
+tour of some of the basic syntax in Rust, such as creating functions
+and declaring variables.
 
