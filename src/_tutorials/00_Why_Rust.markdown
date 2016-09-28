@@ -4,9 +4,12 @@ title: Why Rust?
 slug: why rust?
 description: Get the "extended elevator pitch" for Rust.
 img: /assets/images/rust-logo-512x512.png
-movie: https://www.youtube.com/embed/zkdYFu-Mxwo
+movie: https://www.youtube.com/embed/2NUAd0YC_uI
 date: 2016.09.25
 author: Nicholas D. Matsakis
+successors:
+  - name: Ownership
+    link: /tutorial/ownership
 ---
 
 This movie goes into depth on a few examples that show Rust makes

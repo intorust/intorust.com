@@ -4,7 +4,7 @@ title: Shared borrows
 slug: shared borrows
 description: Shared borrows
 img: /assets/images/and.png
-movie: https://www.youtube.com/embed/KnMvFXg__ok
+movie: https://www.youtube.com/embed/r6OXZh3SP2c
 date: 2016.09.25
 author: Nicholas D. Matsakis
 exercises:
@@ -13,6 +13,9 @@ exercises:
 predecessors:
   - name: Ownership
     link: /tutorial/ownership
+successors:
+  - name: Mutable Borrows
+    link: /tutorial/mutable-borrows
 ---
 
 Continue from where the [ownership tutorial] left off. Learn how to
