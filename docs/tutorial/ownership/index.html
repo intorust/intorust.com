@@ -103,16 +103,21 @@ tutorial walks through the core ideas of ownership.</p>
   </div>
   <div class="col-xs-6">
     <h3>Exercises</h3>
+    
     <ul>
       
       <li> <a target="_blank" href="https://play.rust-lang.org?code=fn+main%28%29+%7B%0A++++let+%28adjective%2C+name%29+%3D+two_words%28%29%3B%0A++++let+name+%3D+format%21%28%22%7B%7D+%7B%7D%22%2C+adjective%2C+name%29%3B%0A++++print_out%28name%29%3B%0A%7D%0A%0Afn+two_words%28%29+-%3E+%28String%2C+String%29+%7B%0A++++%28format%21%28%22fellow%22%29%2C+format%21%28%22Rustaceans%22%29%29%0A%7D%0A%0Afn+remove_vowels%28name%3A+String%29+-%3E+String+%7B%0A++++%2F%2F+Goal+%231%3A+What+is+needed+here+to+make+this+compile%3F%0A++++let+output+%3D+String%3A%3Anew%28%29%3B%0A++++for+c+in+name.chars%28%29+%7B%0A++++++++match+c+%7B%0A++++++++++++%27a%27+%7C+%27e%27+%7C+%27i%27+%7C+%27o%27+%7C+%27u%27+%3D%3E+%7B%0A++++++++++++++++%2F%2F+skip+vowels%0A++++++++++++%7D%0A++++++++++++_+%3D%3E+%7B%0A++++++++++++++++output.push%28c%29%3B%0A++++++++++++%7D%0A++++++++%7D%0A++++%7D%0A++++output%0A%7D%0A%0Afn+print_out%28name%3A+String%29+%7B%0A++++let+devowelized_name+%3D+remove_vowels%28name%29%3B%0A++++println%21%28%22Removing+vowels+yields+%7B%3A%3F%7D%22%2C+devowelized_name%29%3B%0A%0A++++%2F%2F+Goal+%232%3A+What+happens+when+you+uncomment+the+%60println%60+below%3F%0A++++%2F%2F+Can+you+change+the+code+above+so+that+the+code+below+compiles%0A++++%2F%2F+successfully%3F%0A++++%2F%2F%0A++++%2F%2F+println%21%28%22Removing+vowels+from+%7B%3A%3F%7D+yields+%7B%3A%3F%7D%22%2C%0A++++%2F%2F++++++++++name%2C+devowelized_name%29%3B%0A%0A++++%2F%2F+Extra+credit%3A+Can+you+do+it+without+copying+any+data%3F%0A++++%2F%2F+%28Using+only+ownership+transfer%29%0A%7D%0A&version=nightly">Ownership</a>
         
         
     </ul>
+    
   </div> <!--/col-xs-6-->
 </div> <!--/row-->
 <div class="row">
   <div class="col-xs-6">
+    <h3>Watch this first</h3>
+    
+    No prerequisites for this tutorial.
     
   </div>
   <div class="col-xs-6">
