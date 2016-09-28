@@ -13,7 +13,9 @@ no_footer: true
   <!-- FIXME is there a way to get more rows on lg screens? -->
   {% cycle 'add row' : '<div class="row">', nil, nil %}
     <div class="col-md-4">
-      <img class="img-responsive" src="{{ post.img | prepend: site.baseurl }}">
+      <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
+        <img class="img-responsive" src="{{ post.img | prepend: site.baseurl }}">
+      </a>
       
       <h2>
         <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
