@@ -52,8 +52,7 @@ Niko, he maintains a blog at
 and [Steve Klabnik](https://github.com/steveklabnik) also helped in
 the iteration on the current set of slides.
 
-Thanks to [Liz Baille](https://twitter.com/_lizbaillie/), whose
+Thanks to [Liz Baillie](https://twitter.com/_lizbaillie/), whose
 excellent
 [Illustrated Rust Adventure Guide](http://www.slideshare.net/LizBaillie/rustconf-2016-illustrated-adventure-guide-65894363)
 is used as the basis for a lot of the artwork on the site.
-
