@@ -6,8 +6,8 @@
 </description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 28 Sep 2016 08:37:41 -0700</pubDate>
-    <lastBuildDate>Wed, 28 Sep 2016 08:37:41 -0700</lastBuildDate>
+    <pubDate>Thu, 29 Sep 2016 11:06:58 -0400</pubDate>
+    <lastBuildDate>Thu, 29 Sep 2016 11:06:58 -0400</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
     
       <item>
@@ -38,7 +38,7 @@ open an issue. If you’d be interested in helping in other ways, check
 out the README or the open issues on the repository.&lt;/p&gt;
 
 </description>
-        <pubDate>Mon, 26 Sep 2016 00:00:00 -0700</pubDate>
+        <pubDate>Mon, 26 Sep 2016 00:00:00 -0400</pubDate>
         <link>/blog/2016/09/26/welcome-to-into-rust/</link>
         <guid isPermaLink="true">/blog/2016/09/26/welcome-to-into-rust/</guid>
         

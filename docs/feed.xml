@@ -6,14 +6,14 @@
 </description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 28 Sep 2016 08:37:41 -0700</pubDate>
-    <lastBuildDate>Wed, 28 Sep 2016 08:37:41 -0700</lastBuildDate>
+    <pubDate>Thu, 29 Sep 2016 11:06:58 -0400</pubDate>
+    <lastBuildDate>Thu, 29 Sep 2016 11:06:58 -0400</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
     
       <item>
         <title>Why Rust?</title>
         <description>Get the &quot;extended elevator pitch&quot; for Rust.</description>
-        <pubDate>Sun, 25 Sep 2016 00:00:00 -0700</pubDate>
+        <pubDate>Sun, 25 Sep 2016 00:00:00 -0400</pubDate>
         <link>/tutorial/why-rust/</link>
         <guid isPermaLink="true">/tutorial/why-rust/</guid>
         
@@ -23,7 +23,7 @@
       <item>
         <title>Hello, world!</title>
         <description>Where every tutorial must start!</description>
-        <pubDate>Sun, 25 Sep 2016 00:00:00 -0700</pubDate>
+        <pubDate>Sun, 25 Sep 2016 00:00:00 -0400</pubDate>
         <link>/tutorial/hello-world/</link>
         <guid isPermaLink="true">/tutorial/hello-world/</guid>
         
@@ -33,7 +33,7 @@
       <item>
         <title>Ownership</title>
         <description>Ownership: the foundation of how Rust works</description>
-        <pubDate>Sun, 25 Sep 2016 00:00:00 -0700</pubDate>
+        <pubDate>Sun, 25 Sep 2016 00:00:00 -0400</pubDate>
         <link>/tutorial/ownership/</link>
         <guid isPermaLink="true">/tutorial/ownership/</guid>
         
@@ -43,7 +43,7 @@
       <item>
         <title>Shared borrows</title>
         <description>Shared borrows</description>
-        <pubDate>Sun, 25 Sep 2016 00:00:00 -0700</pubDate>
+        <pubDate>Sun, 25 Sep 2016 00:00:00 -0400</pubDate>
         <link>/tutorial/shared-borrows/</link>
         <guid isPermaLink="true">/tutorial/shared-borrows/</guid>
         
@@ -53,7 +53,7 @@
       <item>
         <title>Mutable borrows</title>
         <description>Mutable borrows</description>
-        <pubDate>Sun, 25 Sep 2016 00:00:00 -0700</pubDate>
+        <pubDate>Sun, 25 Sep 2016 00:00:00 -0400</pubDate>
         <link>/tutorial/mutable-borrows/</link>
         <guid isPermaLink="true">/tutorial/mutable-borrows/</guid>
         
