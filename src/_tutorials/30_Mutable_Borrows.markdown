@@ -17,4 +17,10 @@ predecessors:
     link: /tutorial/shared-borrows
 ---
 
-Ownership is very cool.
+In the [shared borrows] tutorial, we learned that how to use shared
+references (`&T`) to give temporary, read-only access to data. This
+tuturial covers mutable references (`&mut T`), which allow the data to
+be mutated while it is borrowed. This tutorial completes the tour of
+Rust's ownership model.
+
+[shared borrows]: {% link _tutorials/20_Shared_Borrows.markdown %}
