@@ -1,7 +1,6 @@
 ---
 layout: default
 no_header: true
-no_footer: true
 ---
 
 <div class="home">
@@ -31,8 +30,5 @@ no_footer: true
       {% cycle 'end row' : nil, nil, '</div>' %}
     {% endfor %}
     {% cycle 'end row' : nil, '</div>', '</div>' %}
-<hr>
-<p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">to these tutorials via RSS</a>
-</ul>
 </div><!--/row-->
 </div><!--/home-->
