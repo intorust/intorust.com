@@ -6,8 +6,8 @@
 </description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 30 Sep 2016 16:16:10 -0400</pubDate>
-    <lastBuildDate>Fri, 30 Sep 2016 16:16:10 -0400</lastBuildDate>
+    <pubDate>Fri, 30 Sep 2016 16:30:36 -0400</pubDate>
+    <lastBuildDate>Fri, 30 Sep 2016 16:30:36 -0400</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
     
       <item>
@@ -42,7 +42,7 @@
     
       <item>
         <title>Shared borrows</title>
-        <description>Shared borrows</description>
+        <description>How to have multiple references to the same data without copying</description>
         <pubDate>Sun, 25 Sep 2016 00:00:00 -0400</pubDate>
         <link>/tutorial/shared-borrows/</link>
         <guid isPermaLink="true">/tutorial/shared-borrows/</guid>
@@ -52,7 +52,7 @@
     
       <item>
         <title>Mutable borrows</title>
-        <description>Mutable borrows</description>
+        <description>How to write helper functions that mutate your data</description>
         <pubDate>Sun, 25 Sep 2016 00:00:00 -0400</pubDate>
         <link>/tutorial/mutable-borrows/</link>
         <guid isPermaLink="true">/tutorial/mutable-borrows/</guid>

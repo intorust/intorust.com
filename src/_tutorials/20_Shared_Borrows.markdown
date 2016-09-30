@@ -2,7 +2,7 @@
 layout: tutorial
 title: Shared borrows
 slug: shared borrows
-description: Shared borrows
+description: How to have multiple references to the same data without copying
 img: /assets/images/and.png
 youtube_id: 61bFe3jqi1E
 date: 2016.09.25

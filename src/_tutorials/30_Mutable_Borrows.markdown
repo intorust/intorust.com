@@ -2,7 +2,7 @@
 layout: tutorial
 title: Mutable borrows
 slug: mutable borrows
-description: Mutable borrows
+description: How to write helper functions that mutate your data
 img: /assets/images/mut_and.png
 youtube_id: pd7PJ6q4I3M
 date: 2016.09.25
