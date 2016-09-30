@@ -37,22 +37,18 @@ The primary author of these slides, and the narrator on the
 screencasts, is Nicholas Matsakis (his friends, and his enemies
 really, call him Niko). Niko has been involved in Rust since 2011 and
 is a member of the Rust core team as well as the leader of the
-language and compiler teams. Niko maintains a blog at
-<http://smallcultfollowing.com/babysteps>. Niko's IRC nick is
-`nmatsakis`, and his e-mail is available on
-[his GitHub page](https://github.com/nikomatsakis/). Please, feel free
-to contact him with questions or comments (though he is perenially
-behind on e-mail, so don't be surprised if there is a delay in getting
-a response).
+language and compiler teams. You can find him on IRC at `nmatsakis`.
 
-[Aaron Turon](https://github.com/aturon/) is another major
-contributor. He is a member of the Rust core and language teams.  Like
-Niko, he maintains a blog at
-<http://aturon.github.io/blog/>. [Felix Klock](https://github.com/pnkfelix)
-and [Steve Klabnik](https://github.com/steveklabnik) also helped in
-the iteration on the current set of slides.
+The beautiful website is due to
+[Liz Baillie](https://twitter.com/_lizbaillie/), Rust and Ruby hacker
+and comic artist extraordinaire.  You may also enjoy her excellent
+[Illustrated Rust Adventure Guide][IRAG] talk from RustConf 2016.
 
-Thanks to [Liz Baillie](https://twitter.com/_lizbaillie/), whose
-excellent
-[Illustrated Rust Adventure Guide](http://www.slideshare.net/LizBaillie/rustconf-2016-illustrated-adventure-guide-65894363)
-is used as the basis for a lot of the artwork on the site.
+[IRAG]: http://www.slideshare.net/LizBaillie/rustconf-2016-illustrated-adventure-guide-65894363
+
+Other contributors include:
+
+- [Aaron Turon](https://github.com/aturon/)
+- [Felix Klock](https://github.com/pnkfelix)
+- [Steve Klabnik](https://github.com/steveklabnik)
+
