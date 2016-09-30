@@ -4,9 +4,10 @@ title: Shared borrows
 slug: shared borrows
 description: Shared borrows
 img: /assets/images/and.png
-youtube_id: r6OXZh3SP2c
+youtube_id: 61bFe3jqi1E
 date: 2016.09.25
 author: Nicholas D. Matsakis
+time: 25min
 exercises:
   - name: Shared borrows
     rust: _rust/20_sharing.rs

@@ -4,9 +4,10 @@ title: Mutable borrows
 slug: mutable borrows
 description: Mutable borrows
 img: /assets/images/mut_and.png
-youtube_id: c5Xf3Ec30kI
+youtube_id: pd7PJ6q4I3M
 date: 2016.09.25
 author: Nicholas D. Matsakis
+time: 25min
 exercises:
   - name: Mutable borrows
     rust: _rust/30_mutable_borrow.rs

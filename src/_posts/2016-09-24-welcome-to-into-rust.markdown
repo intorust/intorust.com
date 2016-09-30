@@ -15,7 +15,8 @@ reason for this is othat ownership is Rust's most unique feature, and
 is often the one that people find the most confusing.
 
 The current set of tutorials is just a start. I hope to post
-additional screencasts on a regular basis:
+additional screencasts on a regular basis. Here are some of the talks
+we have queued up:
 
 - Structs and enums
 - Threads
@@ -30,5 +31,6 @@ The sources for `into_rust()` are [available in Github][gh] (as are,
 in fact, [the Keynote slides] for a number of the tutorials mentioned
 above). If you find errors or have suggestions for improvement, please
 open an issue. If you'd be interested in helping in other ways, check
-out the README or the open issues on the repository.
-
+out the README or the open issues on the repository. (Among other
+things, I am sure I did some rather embarassing things in the CSS or
+other bits of this site. So please show me the right way to do it!)

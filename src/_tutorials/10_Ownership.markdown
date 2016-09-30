@@ -4,12 +4,16 @@ title: Ownership
 slug: ownership
 description: 'Ownership: the foundation of how Rust works'
 img: /assets/images/15.png
-youtube_id: Hbhb4L8_-6M
+youtube_id: TCUBSbJENO4
 date: 2016.09.25
 author: Nicholas D. Matsakis
+time: 30min
 exercises:
   - name: Ownership
     rust: _rust/10_ownership.rs
+predecessors:
+  - name: Hello, world!
+    link: /tutorial/hello-world
 successors:
   - name: Shared borrows
     link: /tutorial/shared-borrows

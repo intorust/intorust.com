@@ -29,7 +29,10 @@ footer_nav: true
         </h2>
 
         <p>{{ post.description | escape }}</p>
-        <span class="post-meta">Last updated: {{ post.date | date: "%b %-d, %Y" }}</span>
+        <span class="post-meta">
+          Time estimate: {{ post.time }}<br>
+          Last updated: {{ post.date | date: "%b %-d, %Y" }}
+        </span>
       </div><!--/.col-md-4-->
       {% cycle 'end row' : nil, nil, '</div>' %}
     {% endfor %}

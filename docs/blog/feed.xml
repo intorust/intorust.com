@@ -6,8 +6,8 @@
 </description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 30 Sep 2016 08:44:12 -0400</pubDate>
-    <lastBuildDate>Fri, 30 Sep 2016 08:44:12 -0400</lastBuildDate>
+    <pubDate>Fri, 30 Sep 2016 15:57:22 -0400</pubDate>
+    <lastBuildDate>Fri, 30 Sep 2016 15:57:22 -0400</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
     
       <item>
@@ -21,7 +21,8 @@ reason for this is othat ownership is Rust’s most unique feature, and
 is often the one that people find the most confusing.&lt;/p&gt;
 
 &lt;p&gt;The current set of tutorials is just a start. I hope to post
-additional screencasts on a regular basis:&lt;/p&gt;
+additional screencasts on a regular basis. Here are some of the talks
+we have queued up:&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;Structs and enums&lt;/li&gt;
@@ -35,8 +36,9 @@ additional screencasts on a regular basis:&lt;/p&gt;
 in fact, &lt;a href=&quot;https://github.com/nikomatsakis/intorust/tree/master/keynote&quot;&gt;the Keynote slides&lt;/a&gt; for a number of the tutorials mentioned
 above). If you find errors or have suggestions for improvement, please
 open an issue. If you’d be interested in helping in other ways, check
-out the README or the open issues on the repository.&lt;/p&gt;
-
+out the README or the open issues on the repository. (Among other
+things, I am sure I did some rather embarassing things in the CSS or
+other bits of this site. So please show me the right way to do it!)&lt;/p&gt;
 </description>
         <pubDate>Mon, 26 Sep 2016 00:00:00 -0400</pubDate>
         <link>/blog/2016/09/26/welcome-to-into-rust/</link>
