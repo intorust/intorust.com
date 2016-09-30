@@ -1,6 +1,5 @@
 ---
 layout: default
-no_header: true
 ---
 
 <div class="home">
@@ -10,6 +9,7 @@ no_header: true
         <img class="img-responsive" src="/assets/images/into_rust_banner.png">
       </a>
     </p>
+
     {% for post in site.tutorials %}
     <!-- FIXME is there a way to get more rows on lg screens? -->
     {% cycle 'add row' : '<div class="row">', nil, nil %}
