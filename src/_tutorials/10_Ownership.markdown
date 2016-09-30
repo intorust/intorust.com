@@ -4,7 +4,7 @@ title: Ownership
 slug: ownership
 description: 'Ownership: the foundation of how Rust works'
 img: /assets/images/15.png
-movie: https://www.youtube.com/embed/Hbhb4L8_-6M
+youtube_id: Hbhb4L8_-6M
 date: 2016.09.25
 author: Nicholas D. Matsakis
 exercises:

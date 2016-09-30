@@ -40,7 +40,18 @@ $on-laptop:        800px;
 // Import partials from the `minima` theme.
 @import "minima";
 
-.ndm-col-centered{
+.ndm-col-centered {
     float: none;
     margin: 0 auto;
+}
+
+.ndm-right-justified {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.ndm-playback {
+    padding-bottom: 15px;
+    width: 640px;
 }

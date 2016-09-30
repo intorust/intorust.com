@@ -4,7 +4,7 @@ title: Shared borrows
 slug: shared borrows
 description: Shared borrows
 img: /assets/images/and.png
-movie: https://www.youtube.com/embed/r6OXZh3SP2c
+youtube_id: r6OXZh3SP2c
 date: 2016.09.25
 author: Nicholas D. Matsakis
 exercises:

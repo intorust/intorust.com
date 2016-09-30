@@ -4,7 +4,7 @@ title: Mutable borrows
 slug: mutable borrows
 description: Mutable borrows
 img: /assets/images/mut_and.png
-movie: https://www.youtube.com/embed/c5Xf3Ec30kI
+youtube_id: c5Xf3Ec30kI
 date: 2016.09.25
 author: Nicholas D. Matsakis
 exercises:

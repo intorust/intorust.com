@@ -4,7 +4,7 @@ title: Hello, world!
 slug: hello world
 description: Where every tutorial must start!
 img: /assets/images/hello_world.png
-movie: https://www.youtube.com/embed/UA98I2GSB3Y
+youtube_id: UA98I2GSB3Y
 date: 2016.09.25
 author: Nicholas D. Matsakis
 exercises:
