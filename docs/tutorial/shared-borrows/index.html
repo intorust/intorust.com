@@ -94,9 +94,20 @@
   <div class="post-content" itemprop="articleBody">
     <div class="row">
   <div class="col-xs-12">
-    <div class="row">
-      <iframe width="600" height="375" src="https://www.youtube.com/embed/r6OXZh3SP2c" frameborder="0" allowfullscreen>
-      </iframe>
+    <!-- manually specify width/height to avoid things resizing while
+         Youtube play loads; not sure how imp't this is, maybe not at all -->
+    <div id="player" style="width:640px; height:400px;"></div>
+    
+    <script> VIDEO_ID = "r6OXZh3SP2c"; WIDTH = '640'; HEIGHT = '400'; </script>
+    <script src="/assets/js/player.js" async></script>
+    
+    <!--<iframe width="600" height="375" src="" frameborder="0" allowfullscreen>
+        </iframe>-->
+    <div class="ndm-playback">
+      Playback speed:
+      <a id="link1x" href="">1x</a>;
+      <a id="link1_5x" href="">1.5x</a>;
+      <a id="link2x" href="">2x</a>.
     </div>
   </div>
 </div>
