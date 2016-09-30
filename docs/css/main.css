@@ -5970,7 +5970,6 @@ pre {
     color: #424242; }
 
 .site-nav {
-  float: right;
   line-height: 56px; }
   .site-nav .menu-icon {
     display: none; }
@@ -6271,3 +6270,9 @@ pre {
 .ndm-playback {
   padding-bottom: 15px;
   width: 640px; }
+
+.ndm-footer-nav .page-link {
+  color: #111;
+  line-height: 1.5; }
+  .ndm-footer-nav .page-link:not(:last-child) {
+    margin-right: 20px; }
