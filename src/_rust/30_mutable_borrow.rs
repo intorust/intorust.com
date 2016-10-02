@@ -24,6 +24,6 @@ fn join_words(mut prefix: String, suffix: String) -> String {
 // Hint: If you'd like a hint as to how to proceed, open
 // <http://home.url/hint/mutable_borrow_1/>.
 
-// Question: Now that you've converted `strcat`, what happens if you
-// call `strcat` using the same string for `prefix` and `suffix`?
+// Question: Now that you've converted `join_words`, what happens if you
+// call `join_words` using the same string for `prefix` and `suffix`?
 // Why?
