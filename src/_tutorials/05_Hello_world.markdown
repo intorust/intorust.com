@@ -1,6 +1,7 @@
 ---
 layout: tutorial
 title: Hello, world!
+title_img: /assets/images/hello_world_small.png
 slug: hello world
 description: Where every tutorial must start!
 img: /assets/images/hello_world.png

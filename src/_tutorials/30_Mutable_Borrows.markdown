@@ -1,6 +1,7 @@
 ---
 layout: tutorial
 title: Mutable borrows
+title_img: /assets/images/mutable_borrows.png
 slug: mutable borrows
 description: How to write helper functions that mutate your data
 img: /assets/images/mut_and.png

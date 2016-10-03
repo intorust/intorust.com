@@ -1,6 +1,7 @@
 ---
 layout: tutorial
 title: Shared borrows
+title_img: /assets/images/shared_borrows.png
 slug: shared borrows
 description: How to have multiple references to the same data without copying
 img: /assets/images/and.png
