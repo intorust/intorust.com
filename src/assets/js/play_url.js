@@ -40,7 +40,7 @@
     var solutionRegex = /\/\/ START SOLUTION\s*(.*)\s*\/\/ END SOLUTION/g;
     var promptRegex = /\/\/\s*PROMPT\s*(.*)/g
 
-    text = text.replace("http://home.url/g", HOME_URL);
+    text = text.replace("http://home\.url/", HOME_URL);
     if (/PROMPT/.test(text)) {
       if (promptRegex.test(text)) {
         text = text.replace(promptRegex, "$1");
