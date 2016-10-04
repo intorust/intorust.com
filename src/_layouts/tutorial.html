@@ -33,7 +33,7 @@ layout: post
     {% if page.exercises %}
     <ul>
       {% for exercise in page.exercises %}
-      <li> <a target="_blank" data-exercise-uri="{{ exercise.rust }}" href="{{ "/javascript_required.html" | prepend: site.baseurl }}">{{ exercise.name | escape }}</a>
+      <li> <a target="_blank" onclick="window.playUrl('{{ exercise.rust }}');return false;" data-exercise-uri="{{ exercise.rust }}" href="{{ "/javascript_required.html" | prepend: site.baseurl }}">{{ exercise.name | escape }}</a>
         {% if exercise.hint %}
         {{ exercise.hint | markdownify }}
         {% endif %}

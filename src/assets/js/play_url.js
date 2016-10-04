@@ -20,20 +20,24 @@
     window.open(uri, "_blank");
   }
 
-  function playUrl() {
-    var exerciseLinks = document.querySelectorAll('[data-exercise-uri]');
+  window.playUrl = function playUrl(msg) {
+    console.log(msg);
+    get(msg);
+    // var exerciseLinks = document.querySelectorAll('[data-exercise-uri]');
+    //     var exerciseUri = ev.target.getAttribute('data-exercise-uri');
+    //     get(exerciseUri);
 
-    exerciseLinks.forEach(function(link, i) {
-      link.addEventListener("click", function(ev) {
-        ev.preventDefault();
-        var exerciseUri = ev.target.getAttribute('data-exercise-uri');
-        get(exerciseUri);
-      });
-    });
+    // exerciseLinks.forEach(function(link, i) {
+    //   link.addEventListener("click", function(ev) {
+    //     ev.preventDefault();
+    //     var exerciseUri = ev.target.getAttribute('data-exercise-uri');
+    //     get(exerciseUri);
+    //   });
+    // });
   }
 
   document.addEventListener("DOMContentLoaded", function() {
-    playUrl();
+    // playUrl();
   });
 
 })(window, document);
