@@ -1,9 +1,10 @@
-(function (document) {
+(function (window, document) {
   "use strict";
 
   var EXERCISES_PATH = "/exercises";
   var PLAY_HOST = "https://play.rust-lang.org";
   var RUST_VERSION = "nightly";
+  var HOME_URL = window.location.protocol + "//" + window.location.host + "/";
 
   document.addEventListener("DOMContentLoaded", function() {
     playUrl();
@@ -36,7 +37,9 @@
   }
 
   function addTransformations(text) {
+    text = text.replace("http://home.url/", HOME_URL);
+    text = text.replace(/\/\/\s*PROMPT\s*(.*)/, "$1");
     return text;
   }
 
-})(document);
+})(window, document);
