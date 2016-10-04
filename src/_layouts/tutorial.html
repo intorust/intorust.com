@@ -34,9 +34,12 @@ layout: post
     <ul>
       {% for exercise in page.exercises %}
       <li>
-        <a target="_blank"
+        <a
+           class="exercise-link-loading"
+           target="_blank"
            data-exercise-uri="{{ exercise.rust }}"
-           href="{{ "/exercises" | site.baseurl }}">
+           href="javascript:void(0)"
+        >
             {{ exercise.name | escape }}
         </a>
         {% if exercise.hint %}
