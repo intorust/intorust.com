@@ -10,7 +10,7 @@ author: Nicholas D. Matsakis
 time: 25min
 exercises:
   - name: Mutable borrows
-    rust: _rust/30_mutable_borrow.rs
+    rust: 30_mutable_borrow.rs
     hint: |
       The syntax can be a bit tricky. If you like, [click here for a hint](/hint/mutable_borrow_1/).
 predecessors:

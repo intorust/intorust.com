@@ -10,7 +10,7 @@ author: Nicholas D. Matsakis
 time: 30min
 exercises:
   - name: Ownership
-    rust: _rust/10_ownership.rs
+    rust: 10_ownership.rs
 predecessors:
   - name: Hello, world!
     link: /tutorial/hello-world
