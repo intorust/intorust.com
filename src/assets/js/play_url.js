@@ -1,3 +1,4 @@
+// fetch exercises even before user clicks on any link!
 (function(window, document) {
   "use strict";
 
@@ -7,18 +8,27 @@
     xhr.open("get", basePath + path, true);
     xhr.onreadystatechange = function() {
       if (xhr.readyState == XMLHttpRequest.DONE && xhr.status == 200) {
-        console.log(xhr.responseText);
+        sendToPlay(xhr.responseText);
       }
     };
     xhr.send();
+  }
+
+  function sendToPlay(code) {
+    var uri = "https://play.rust-lang.org?version=nightly";
+    uri += "&code=" + encodeURIComponent(code);
+    window.open(uri, "_blank");
   }
 
   function playUrl() {
     var exerciseLinks = document.querySelectorAll('[data-exercise-uri]');
 
     exerciseLinks.forEach(function(link, i) {
-      var exerciseUri = link.getAttribute('data-exercise-uri');
-      get(exerciseUri);
+      link.addEventListener("click", function(ev) {
+        ev.preventDefault();
+        var exerciseUri = ev.target.getAttribute('data-exercise-uri');
+        get(exerciseUri);
+      });
     });
   }
 
