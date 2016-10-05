@@ -41,21 +41,8 @@
     var promptRegex = /\/\/\s*PROMPT\s*(.*)/g;
 
     text = text.replace("http://home\.url/", HOME_URL);
-    if (/PROMPT/.test(text)) {
-      if (promptRegex.test(text)) {
-        text = text.replace(promptRegex, "$1");
-      } else {
-        console.error("PROMPT keyword found but the actual match failed");
-      }
-    }
-
-    if (/START|END|SOLUTION/.test(text)) {
-      if (solutionRegex.test(text)) {
-        text = text.replace(solutionRegex, "");
-      } else {
-        console.error("START|END|SOLUTION keyword(s) found but the actual match failed");
-      }
-    }
+    text = text.replace(promptRegex, "$1");
+    text = text.replace(solutionRegex, "");
 
     return text;
   }
