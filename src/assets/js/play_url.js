@@ -38,7 +38,7 @@
 
   function addTransformations(text) {
     var solutionRegex = /\/\/ START SOLUTION\s*(.*)\s*\/\/ END SOLUTION/g;
-    var promptRegex = /\/\/\s*PROMPT\s*(.*)/g
+    var promptRegex = /\/\/\s*PROMPT\s*(.*)/g;
 
     text = text.replace("http://home\.url/", HOME_URL);
     if (/PROMPT/.test(text)) {
