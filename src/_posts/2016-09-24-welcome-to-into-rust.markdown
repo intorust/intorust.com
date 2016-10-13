@@ -11,7 +11,7 @@ showing tutorials that I have been working on for over a year. The
 tutorials take an "Ownership First" approach -- which means that we
 place a heavy emphasis on learning how ownership and the borrow
 checker work, rather than covering Rust's syntax or other details. The
-reason for this is othat ownership is Rust's most unique feature, and
+reason for this is that ownership is Rust's most unique feature, and
 is often the one that people find the most confusing.
 
 The current set of tutorials is just a start. I hope to post
