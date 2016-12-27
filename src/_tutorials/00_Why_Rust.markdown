@@ -1,6 +1,7 @@
 ---
 layout: tutorial
 title: Why Rust?
+title_img: /assets/images/why_rust.png
 slug: why rust?
 description: Get the "extended elevator pitch" for Rust.
 img: /assets/images/rustlogobig.png

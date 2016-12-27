@@ -1,6 +1,7 @@
 ---
 layout: tutorial
 title: Ownership
+title_img: /assets/images/ownership.png
 slug: ownership
 description: 'Ownership: the foundation of how Rust works'
 img: /assets/images/15.png
