@@ -40,7 +40,7 @@ is a member of the Rust core team as well as the leader of the
 language and compiler teams. You can find him on IRC at `nmatsakis`.
 
 The beautiful website is due to
-[Liz Baillie](https://twitter.com/_lizbaillie/), Rust and Ruby hacker
+[Liz Baillie](https://twitter.com/_lbaillie/), Rust and Ruby hacker
 and comic artist extraordinaire.  You may also enjoy her excellent
 [Illustrated Rust Adventure Guide][IRAG] talk from RustConf 2016.
 
@@ -51,4 +51,3 @@ Other contributors include:
 - [Aaron Turon](https://github.com/aturon/)
 - [Felix Klock](https://github.com/pnkfelix)
 - [Steve Klabnik](https://github.com/steveklabnik)
-
