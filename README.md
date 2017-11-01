@@ -41,9 +41,9 @@ cd src
 jekyll build -d ../docs
 ```
 
-Böylece `docs` doğrudan güncellenmiş olur. Şimdi yapmanız gereken github sayfalarını kullanarak 'commit' edin.
+Böylece `docs` doğrudan güncellenmiş olur. Şimdi yapmanız gereken github sayfalarını kullanarak 'commit' etmek.
 
 # Lisans
 
-Tüm içerikler MIT ve Apache altında lisanslanmıştır. =)
+Tüm içerikler MIT ve Apache altında lisanslanmıştır.
 Yapılacak katkılar bu lisanslar altında yayınlanmalıdır.
