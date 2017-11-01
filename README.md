@@ -32,7 +32,7 @@ bundle exec jekyll serve
 
 yaptığınız değişikliklerin görüntüleneceği adres: `http://127.0.0.1:4000`
 
-### Building and putting the sources live
+### canlandırın
 
 `intorust.com` yansıları `docs`  üzerinde github sayfalarını kullanarak çalışır. Yaptığınız değişiklikleri kurmak için:
 
