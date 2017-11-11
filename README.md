@@ -41,7 +41,7 @@ GH Pages. So, to build the source, do the following steps:
 
 ```
 cd src
-jekyll build -d ../docs
+bundle exec jekyll build -d ../docs
 ```
 
 This will update the `docs` directlry. Then you need to commit your
