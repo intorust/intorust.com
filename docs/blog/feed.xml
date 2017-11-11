@@ -6,8 +6,8 @@
 </description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 01 Oct 2016 20:06:59 -0400</pubDate>
-    <lastBuildDate>Sat, 01 Oct 2016 20:06:59 -0400</lastBuildDate>
+    <pubDate>Sat, 11 Nov 2017 07:14:56 -0500</pubDate>
+    <lastBuildDate>Sat, 11 Nov 2017 07:14:56 -0500</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
     
       <item>
@@ -17,7 +17,7 @@ showing tutorials that I have been working on for over a year. The
 tutorials take an “Ownership First” approach – which means that we
 place a heavy emphasis on learning how ownership and the borrow
 checker work, rather than covering Rust’s syntax or other details. The
-reason for this is othat ownership is Rust’s most unique feature, and
+reason for this is that ownership is Rust’s most unique feature, and
 is often the one that people find the most confusing.&lt;/p&gt;
 
 &lt;p&gt;The current set of tutorials is just a start. I hope to post
