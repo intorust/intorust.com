@@ -6,10 +6,11 @@ layout: post
     <!-- manually specify width/height to avoid things resizing while
          Youtube play loads; not sure how imp't this is, maybe not at all -->
     <div id="player" style="width:640px; height:400px;"></div>
-    
+
     <script> VIDEO_ID = "{{ page.youtube_id }}"; WIDTH = '640'; HEIGHT = '400'; </script>
     <script src="{{ "/assets/js/player.js" | prepend: site.baseurl }}" async></script>
-    
+    <script src="{{ "/assets/js/play_url.js" | prepend: site.baseurl }}"></script>
+
     <!--<iframe width="600" height="375" src="{{ page.movie }}" frameborder="0" allowfullscreen>
         </iframe>-->
     <div class="ndm-playback">
@@ -32,11 +33,20 @@ layout: post
     {% if page.exercises %}
     <ul>
       {% for exercise in page.exercises %}
-      <li> <a target="_blank" href="{% play_url exercise.rust %}">{{ exercise.name | escape }}</a>
+      <li>
+        <a
+           class="exercise-link-loading"
+           target="_blank"
+           data-exercise-uri="{{ exercise.rust }}"
+           href="javascript:void(0)"
+        >
+            {{ exercise.name | escape }}
+        </a>
         {% if exercise.hint %}
         {{ exercise.hint | markdownify }}
         {% endif %}
         {% endfor %}
+      </li>
     </ul>
     {% else %}
     No exercises for this tutorial.

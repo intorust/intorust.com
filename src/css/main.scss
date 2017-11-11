@@ -67,3 +67,15 @@ $on-laptop:        800px;
                                    }
     }
 }
+
+.exercise-link-loading {
+  text-decoration: line-through;
+  color: gray;
+}
+
+.exercise-link-loading:hover,
+.exercise-link-loading:link {
+  text-decoration: line-through;
+  color: gray;
+  cursor: default;
+}

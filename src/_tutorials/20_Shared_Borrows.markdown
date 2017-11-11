@@ -11,7 +11,7 @@ author: Nicholas D. Matsakis
 time: 25min
 exercises:
   - name: Shared borrows
-    rust: _rust/20_sharing.rs
+    rust: 20_sharing.rs
 predecessors:
   - name: Ownership
     link: /tutorial/ownership
