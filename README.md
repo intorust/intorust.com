@@ -1,54 +1,49 @@
-# Into Rust
+# Rust, Başlarken
 
-A website containing Rust tutorials. This repo contains the source
-materials. It is divided into two main parts:
+Rust programlama dilini öğreten internet sitesi. Bu depo kaynak materyalleri içermektedir. 
+İki ana bölüme ayrılmıştır:
 
-- `src` -- contains the jekyll sources for the website itself
-- `docs` -- contains the **rendered jekyll sources** used for the GH Pages integration
-- `keynote` -- contains the keynote sources for the slides
+- `src` -- jekyll dosyalarını içerir
+- `docs` -- github sayfaları için 'render' jekyll dosyalarını içerir 
+- `keynote` -- sunumlar için kaynak metinleri içerir
 
-# Building the site
+# İnternet sitesi
 
-### Install jekyll, if you haven't already
+### henüz yapmadıysanız jekyll yükleyin
 
-To do anything, you will need jekyll installed. I am using
-[rbenv](https://github.com/rbenv/rbenv). The Ruby version is commited
-in `.ruby-version`. If you also use rbenv, you should be able to just
-checkout the repository, change into the directory, and do something
-like this (caveat: I am no expert on Ruby, gems, or bundler):
-
+Burada bir şeyler yapmaya başlamak istiyorsanız jekyll kullanmalısınız. Ben
+[rbenv](https://github.com/rbenv/rbenv) kullanıyorum. Burada kullandığım 
+Ruby sürümünü `.ruby-version` kısmında kontrol edebilirsiniz. 
+Hazırda yüklü rbenv mevcut ise, depoyu kontrol edebilir, jekyll dosyalarını içeren klasöre atlayabilir
+ve üzerinde çalışabilirsiniz:
 ```
 cd src
 bundle install
 ```
 
-### Previewing
+### değişklikleri görüntüleyin
 
-To preview changes you are hacking on, do the following:
+yaptığınız değişiklikleri görüntülemek için:
 
 ```
 cd src
 bundle exec jekyll serve
 ```
 
-Then connect to `http://127.0.0.1:4000`. This will stay updated as you
-tweak things, for the most part.
+yaptığınız değişikliklerin görüntüleneceği adres: `http://127.0.0.1:4000`
 
-### Building and putting the sources live
+### canlandırın
 
-`intorust.com` mirrors what is present in the `docs` directory using
-GH Pages. So, to build the source, do the following steps:
+`intorust.com` yansıları `docs`  üzerinde github sayfalarını kullanarak çalışır. Yaptığınız değişiklikleri kurmak için:
 
 ```
 cd src
 bundle exec jekyll build -d ../docs
 ```
 
-This will update the `docs` directlry. Then you need to commit your
-changes and push to GH.
+Böylece `docs` doğrudan güncellenmiş olur. Şimdi yapmanız gereken github sayfalarını kullanarak 'commit' etmek.
 
-# License
+# Lisans
 
-All content is dual licensed under MIT and Apache. Please feel free to
-give these presentations independently and spread the love of Rust. =)
-All contributions imply consent to these licensing terms.
+Tüm içerikler MIT ve Apache altında lisanslanmıştır.
+Yapılacak katkılar bu lisanslar altında yayınlanmalıdır.
