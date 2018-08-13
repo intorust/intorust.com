@@ -1,6 +1,6 @@
 # Into Rust
 
-A website containing Rust tutorials. This repo contains the source
+A website containing Rust tutorials (http://intorust.com/). This repo contains the source
 materials. It is divided into two main parts:
 
 - `src` -- contains the jekyll sources for the website itself
