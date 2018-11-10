@@ -44,7 +44,7 @@ cd src
 bundle exec jekyll build -d ../docs
 ```
 
-This will update the `docs` directlry. Then you need to commit your
+This will update the `docs` directly. Then you need to commit your
 changes and push to GH.
 
 # License
